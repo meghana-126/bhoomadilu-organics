@@ -3,43 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<img src="1.png" alt="Grameena Home Foods Logo" style="width:240px; margin-bottom:15px;">
   <title>Grameena Home Foods – Kolar</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #fdf6ec;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #fdf6ec, #f1f8f4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: white;
+      border-radius: 20px;
+      padding: 40px 20px;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
       text-align: center;
-      padding: 30px;
+      animation: fadeIn 1s ease-in-out;
     }
-    h1 {
+
+    h1,h2,p{
       color: #2e7d32;
+      margin-bottom: 6px;
     }
+
+    p {
+      font-size: 18px;
+    }
+
     .btn {
       display: block;
-      margin: 15px auto;
-      padding: 15px 20px;
+      margin: 12px auto;
+      padding: 14px 18px;
       font-size: 18px;
+      font-weight: bold;
       color: white;
-      background: #4caf50;
+      background: linear-gradient(90deg, #66bb6a, #43a047);
       text-decoration: none;
-      border-radius: 10px;
-      width: 80%;
+      border-radius: 12px;
+      width: 85%;
       max-width: 300px;
+      transition: all 0.3s ease;
+      box-shadow: 0px 4px 10px rgba(76, 175, 80, 0.3);
     }
+
     .btn:hover {
-      background: #388e3c;
+      background: linear-gradient(90deg, #43a047, #2e7d32);
+      transform: translateY(-2px);
+      box-shadow: 0px 6px 14px rgba(46, 125, 50, 0.4);
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
 <body>
-  <h1>Grameena Home Foods</h1>
-  <p>Healthy Traditions, Delivered Fresh</p>
+  <div class="container">
+    <h1>Grameena Home Foods</h1>
+    <h2>by Bhoomadilu Organics</h2>
+    <p>Eat Pure! Live Healthy</p>
 
-  <a class="btn" href="https://goo.gl/maps/your-store-location" target="_blank">📍 Find Us</a>
-  <a class="btn" href="https://yourcatalogue-link.com" target="_blank">📒 Product Catalogue</a>
-  <a class="btn" href="https://wa.me/91XXXXXXXXXX" target="_blank">💬 WhatsApp Order</a>
-  <a class="btn" href="https://instagram.com/grameena_home_foods" target="_blank">📷 Instagram</a>
-  <a class="btn" href="https://facebook.com/your-page" target="_blank">👍 Facebook</a>
+ 
+<a class="btn" href="https://maps.app.goo.gl/Xjxk6oAAWq3rWpxEA" target="_blank">
+  <img src="maps.jpg" alt="Maps" style="height:50px; vertical-align:middle;">  Find Us
+</a>
+<a class="btn" href="https://maps.app.goo.gl/Xjxk6oAAWq3rWpxEA" target="_blank">
+  <img src="catalogue.png" alt="Catalogue" style="height:50px; vertical-align:middle;">  Product Catalogue
+</a>
+    <a class="btn" href="https://chat.whatsapp.com/GcAwr06xWij9I5cRXFYJIG?mode=ac_t" target="_blank">
+  <img src="whatsapp.png" alt="WhatsApp" style="height:50px; vertical-align:middle;">  Join our WhatsApp Community for Stock Updates
+</a>
+    <a class="btn" href="https://www.instagram.com/grameena_home_foods_kolar?igsh=cHMzbHY5ZjB6dmpj" target="_blank">
+  <img src="instagram.jpg" alt="Instagram" style="height:50px; vertical-align:middle;">  Follow us on Instagram
+</a>
+    <a class="btn" href="https://www.swiggy.com/menu/1171118?source=sharing" target="_blank">
+  <img src="swiggy.jpg" alt="Swiggy" style="height:50px; vertical-align:middle;">  Order on Swiggy
+</a>
+<a class="btn" href="https://share.google/h4LJPHFIicwkcavPD" target="_blank">
+  <img src="zomato.png" alt="Zomato" style="height:50px; vertical-align:middle;"> Order on Zomato
+</a>
 
+    <footer>© 2025 Grameena Home Foods – Kolar</footer>
+  </div>
 </body>
 </html>
